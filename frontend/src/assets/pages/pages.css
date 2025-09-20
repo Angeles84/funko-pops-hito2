@@ -1,0 +1,124 @@
+.btn-outline-secondary {
+  background-color: transparent;
+  border-color: transparent;
+  color: #946D9D;
+  font-weight: 600;
+}
+.btn-outline-secondary:hover {
+  background-color: #946D9D;
+  border-color: #946D9D;
+  color: #FFF;
+  font-weight: 600;
+}
+
+.btn-outline-primary {
+  background-color: transparent;
+  border-color: transparent;
+  color: #4C0B5C;
+  font-weight: 600;
+}
+.btn-outline-primary:hover {
+  background-color: #4C0B5C;
+  border-color: #4C0B5C;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn-outline-warning {
+  background-color: transparent;
+  border: solid 2px #feffc4;
+  color: #feffc4;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 0.5rem 1.6rem;
+}
+.btn-outline-warning:hover {
+  background-color: transparent;
+  border: solid 2px #fdff8b;
+  color: #fdff8b;
+}
+.btn-outline-warning:focus {
+  background-color: transparent;
+  border: solid 2px #feffc4;
+  color: #feffc4;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 0.5rem 1.6rem;
+}
+
+.btn-warning {
+  background-color: #feffc4;
+  border-color: #feffc4;
+  color: #4C0B5C;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 0.5rem 1.6rem;
+}
+.btn-warning:hover {
+  background-color: #fdff8b;
+  border-color: #fdff8b;
+  color: #4C0B5C;
+}
+.btn-warning:focus {
+  background-color: #feffc4;
+  border-color: #feffc4;
+  color: #4C0B5C;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 0.5rem 1.6rem;
+}
+
+.btn-primary {
+  background-color: #4C0B5C;
+  border-color: #4C0B5C;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 0.5rem 1.6rem;
+}
+.btn-primary:hover {
+  background-color: #66057f;
+  border-color: #66057f;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 0.5rem 1.6rem;
+}
+.btn-primary:focus {
+  background-color: #4C0B5C;
+  border-color: #4C0B5C;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 0.5rem 1.6rem;
+}
+
+.btn-outline-morado{
+  background-color: transparent;
+  border: solid 2px #4C0B5C;
+  color: #4C0B5C;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 0.5rem 1.6rem;
+}
+.btn-outline-morado:hover{
+  background-color: transparent;
+  border: solid 2px #66057f;
+  color: #66057f;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 0.5rem 1.6rem;
+}
+.btn-outline-morado:focus{
+  background-color: transparent;
+  border: solid 2px #4C0B5C;
+  color: #4C0B5C;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 0.5rem 1.6rem;
+}
+
+
+.ancho-img{
+  max-width: 550px;
+}

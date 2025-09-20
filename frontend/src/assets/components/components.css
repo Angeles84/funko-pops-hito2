@@ -1,0 +1,79 @@
+.banner-header{
+  background-image: url('/src/assets/img/carrusel-img1.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.filtro-banner{
+  background-color: rgba(25, 8, 33, 0.6);
+}
+
+.logo-luckiest {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #4C0B5C !important;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.logo-luckiest span {
+  font-size: 2.6rem;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.bg-morado{
+  background-color: #4C0B5C;
+}
+
+@media (min-width: 768px) {
+  .encabezado-carrusel{
+    width: 75%;
+  }
+}
+
+@media (min-width: 992px) {
+  .encabezado-carrusel{
+    width: 50%;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px){
+  .foto-equipo {
+    width: 85%;
+  }
+}
+
+.card-funko{
+  border-radius: 10px;
+  border-color: #4C0B5C;
+}
+
+.card-funko img{
+  border-radius: 10px 10px 0 0;
+}
+
+.card-funko-body{
+  color: #fff;
+  background-color: #4C0B5C;
+  border-radius: 0 0 8px 8px;
+}
+
+.card-funko-title{
+  font-size: 1.5rem;
+}
+
+.logo-luckiest-b {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff !important;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.logo-luckiest-b span {
+  font-size: 2.6rem;
+}

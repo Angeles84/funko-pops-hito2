@@ -1,0 +1,44 @@
+[
+  {
+    "desc": "Es la princesa Diana de Themyscira, una isla mítica habitada por amazonas. Dotada de fuerza sobrehumana, gran destreza en combate y equipada con armas icónicas como el Lazo de la Verdad y los brazaletes indestructibles, Wonder Woman representa la justicia, la igualdad y la compasión.",
+    "id": "f001",
+    "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/wonderwoman-1.png?alt=media&token=a40f9185-8082-4a53-b481-842849cf3dd4",
+    "name": "Wonder Woman",
+    "price": 12990
+  },
+  {
+    "desc": "Krypto es el perro de Superman en los cómics de DC. Originario del planeta Krypton, fue enviado a la Tierra en una nave similar a la de Kal-El y, al llegar, desarrolló poderes como los de Superman gracias al sol amarillo. Es leal, valiente y comparte habilidades como la superfuerza, la visión de calor y el vuelo.",
+    "id": "f002",
+    "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/kripto-1.jpg?alt=media&token=a7099c70-7523-45b7-9c57-8205738309a4",
+    "name": "Krypto",
+    "price": 14990
+  },
+  {
+    "desc": "Monkey D. Luffy es el protagonista del manga y anime One Piece, creado por Eiichiro Oda. Es un joven pirata alegre, valiente y obstinado, cuyo sueño es encontrar el legendario tesoro One Piece y convertirse en el Rey de los Piratas. Tras comer la fruta Gomu Gomu no Mi, su cuerpo adquirió las propiedades de la goma, lo que le otorga habilidades elásticas únicas en combate.",
+    "id": "f003",
+    "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/luffy-1.jpg?alt=media&token=c6060912-2ebd-4988-b752-0c84e1a8a229",
+    "name": "Luffy",
+    "price": 10990
+  },
+  {
+    "desc": "Es un joven ninja de la aldea oculta de Konoha que sueña con convertirse en Hokage, el líder más fuerte y respetado de su aldea. Desde niño cargó con el rechazo de los demás por llevar sellado en su interior al Zorro de Nueve Colas (Kurama), pero gracias a su perseverancia, optimismo y deseo de reconocimiento, lucha por superar las dificultades.",
+    "id": "f004",
+    "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/naruto-1.jpg?alt=media&token=053d24e5-16df-4cb7-bcde-7477a875696c",
+    "name": "Naruto",
+    "price": 11900
+  },
+  {
+    "desc": "Cruella de Vil es la villana principal de 101 dálmatas, creada por Dodie Smith y popularizada por Disney. Es una mujer extravagante, obsesionada con la moda y conocida por su estilo llamativo, su cabello mitad blanco y mitad negro y su personalidad excéntrica. Su rasgo más distintivo es su obsesión por obtener pieles de dálmata para confeccionar abrigos.",
+    "id": "f005",
+    "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/cruela-1.jpg?alt=media&token=605733b4-cada-48df-8cda-4c5d5cbba5da",
+    "name": "Cruela",
+    "price": 9990
+  },
+  {
+    "desc": "Black Panther es un superhéroe de Marvel Comics creado por Stan Lee y Jack Kirby en 1966. Su identidad es la de T’Challa, rey y protector de Wakanda, una nación africana ficticia avanzada tecnológicamente gracias al vibranio. Dotado de habilidades mejoradas, gran inteligencia y un fuerte sentido de justicia, combina tradición y modernidad en su liderazgo.",
+    "id": "f006",
+    "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/black-panther-1.jpg?alt=media&token=55735a5b-016a-45fa-b62b-86758400f317",
+    "name": "Black Panther",
+    "price": 16990
+  }
+]
