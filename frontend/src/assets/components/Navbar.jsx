@@ -18,7 +18,7 @@ const NavBar = () => {
     <>
       <Navbar expand="lg" fixed="top" className="bg-body-tertiary bg-white shadow">
         <Container>
-          <Navbar.Brand href="#home" className='logo-luckiest'>
+          <Navbar.Brand href="/" className='logo-luckiest'>
             Funko<span>M</span>anía
           </Navbar.Brand>
           
@@ -50,10 +50,10 @@ const NavBar = () => {
                   <Link to="/">
                     <Button 
                       
-                      className={ setActiveClass }
-                      variant="outline-secondary"
+                      className="me-lg-3"
+                      variant="outline-primary"
                       onClick={() => logout()} 
-                      >🚪Logout
+                      >Logout
                     </Button>
                   </Link>
                 </> : 

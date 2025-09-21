@@ -33,7 +33,7 @@ const Login = () => {
   }
 
   if (isLogged) {
-    <Navigate to="/" />;
+    <Navigate to="/tienda" />;
   }
 
   return ( 

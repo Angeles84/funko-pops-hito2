@@ -32,12 +32,12 @@ function App() {
           />
           <Route
             path="/login"
-            element={isLogged ? <Navigate to="/"/> : <Login/> }
+            element={isLogged ? <Navigate to="/tienda"/> : <Login/> }
           >
           </Route>
           <Route
             path="/register"
-            element={isLogged ? <Navigate to="/" /> : <Register />}
+            element={isLogged ? <Navigate to="/profile" /> : <Register />}
           >
           </Route>
           <Route

@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import { useContext } from 'react';
 import { CartContext } from "../context/CartContext";
 import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage from 'components/ExampleCarouselImage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
@@ -26,15 +25,33 @@ const Pizza = () => {
   }
   return ( 
     <div className='mt-5 py-5 container'>
-      <h2 className="h2-home mt-lg-5">{pizza.name}</h2>
-      <div className='row pt-3 align-items-center'>
+      <h2 className="h2-home mt-lg-4">{pizza.name}</h2>
+      <div className='row pt-3'>
         <div className="col-md-5">
-          <img src={pizza.img} className="img-fluid" alt="..."/>
-          
+          <Carousel className='carousel-dark'>
+            <Carousel.Item interval={8000}>
+              <img
+                className="d-block w-100"
+                src={pizza.img}
+                alt="First slide"
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={8000}>
+              <img
+                className="d-block w-100"
+                src={pizza.img2}
+                alt="First slide"
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
         </div>
         <div className="col-md-6 ps-lg-4">
             <p className="card-text mb-4">{pizza.desc}</p>
-            <h3 className=''>$ {pizza.price && pizza.price.toLocaleString('es-CL')}</h3>
+            <h3 className='mb-4'>$ {pizza.price && pizza.price.toLocaleString('es-CL')}</h3>
 
             <div className='pt-4'>             
               <button className='btn btn-outline-morado px-5 me-3 me-lg-5' onClick={() => addToCart(pizza)}>Agregar 🛒</button>

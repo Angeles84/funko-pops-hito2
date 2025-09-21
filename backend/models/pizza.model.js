@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises";
 
 const getPizzas = async () => {
-  const data = await readFile("db/funkoshome.json", "utf-8");
+  const data = await readFile("db/funkostienda.json", "utf-8");
   return JSON.parse(data);
 };
 

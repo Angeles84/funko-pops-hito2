@@ -17,7 +17,7 @@ const Home = () => {
   const getData = async () => {   
     const response = await fetch(url);
     const data = await response.json();
-    setPizzas(data)
+    setPizzas(data.slice(0, 6));
   }
 
   return ( 
