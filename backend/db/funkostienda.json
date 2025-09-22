@@ -6,7 +6,7 @@
     "img2": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/wonderwoman-2.png?alt=media&token=2d0435f4-0ece-4472-9c1e-53aac498fee2",
     "name": "Wonder Woman",
     "categoria": "dccomics",
-    "favorito": false,
+    "favorito": true,
     "price": 12990
   },
   {
@@ -46,7 +46,7 @@
     "img2": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/naruto-2.jpg?alt=media&token=f60060a8-b020-4c89-9098-aa650898439f",
     "name": "Naruto",
     "categoria": "anime",
-    "favorito": false,
+    "favorito": true,
     "price": 11900
   },
   {
@@ -70,7 +70,7 @@
     "price": 8990
   },
   {
-    "desc": "",
+    "desc": "Elsa es una de las protagonistas de Frozen, película animada de Disney estrenada en 2013. Es la reina de Arendelle y posee el poder mágico de controlar el hielo y la nieve, habilidad que la hace tanto admirada como temida. A lo largo de su historia, Elsa aprende a aceptar sus dones y a usarlos para proteger a su reino y a su hermana Anna, representando valores como la autoaceptación, el amor familiar y la valentía.",
     "id": "ft08",
     "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/elsa-1.jpg?alt=media&token=822ef282-18be-4b8a-a7ad-25a1a4a04634",
     "img2": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/elsa-2.jpg?alt=media&token=55821c16-d023-41fb-9686-3d4d10392de0",
@@ -80,7 +80,7 @@
     "price": 12990
   },
   {
-    "desc": "Elsa es una de las protagonistas de Frozen, película animada de Disney estrenada en 2013. Es la reina de Arendelle y posee el poder mágico de controlar el hielo y la nieve, habilidad que la hace tanto admirada como temida. A lo largo de su historia, Elsa aprende a aceptar sus dones y a usarlos para proteger a su reino y a su hermana Anna, representando valores como la autoaceptación, el amor familiar y la valentía.",
+    "desc": "Ariel, la Sirenita, es una princesa de Disney y la hija menor del rey Tritón, gobernante de los mares. Curiosa y soñadora, anhela conocer el mundo humano y no teme romper las reglas para seguir su corazón. Con su melena roja, su voz encantadora y su espíritu aventurero, Ariel representa la valentía de luchar por los propios sueños y el poder del amor y la libertad.",
     "id": "ft09",
     "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/ariel-1.jpg?alt=media&token=59713842-c2b0-42c0-9f00-2c49c60ba06a",
     "img2": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/ariel-2.jpg?alt=media&token=7e0ea952-02c4-4591-825c-f092034dcdc8",

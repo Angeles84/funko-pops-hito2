@@ -8,6 +8,8 @@ const CartProvider  = ({ children }) => {
   const [checkoutSuccess, setCheckoutSuccess] = useState(null);
   const {token} = useContext(UserContext)
 
+  const [purchases, setPurchases] = useState([]);
+
   const totalPrice = cart.reduce(
     (total, pizza) => total + pizza.price * pizza.count,
     0
@@ -64,9 +66,10 @@ const CartProvider  = ({ children }) => {
     let data = await response.json();
     console.log('dataCart', data);
     if (data.message == 'Checkout successful') {
+      setPurchases(prev => [...prev, ...cart]); // 👈 guarda la compra
       setCart([]);
       setCheckoutSuccess(true);
-      //alert('Pago exitoso!!')   
+      alert('¡Tu compra ha sido realizada con éxito!')   
     } else {
       setCheckoutSuccess(false);
       alert(data?.error || data.message);
@@ -74,7 +77,7 @@ const CartProvider  = ({ children }) => {
   };
 
   return ( 
-    <CartContext.Provider value={{cart, totalPrice, disminuirtCount, aumentarCount, getQuantity, addToCart, cartCheckout, checkoutSuccess}}>
+    <CartContext.Provider value={{cart, purchases, totalPrice, disminuirtCount, aumentarCount, getQuantity, addToCart, cartCheckout, checkoutSuccess}}>
       {children}
     </CartContext.Provider>
    );

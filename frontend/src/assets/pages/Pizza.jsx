@@ -25,8 +25,7 @@ const Pizza = () => {
   }
   return ( 
     <div className='mt-5 py-5 container'>
-      <h2 className="h2-home mt-lg-4">{pizza.name}</h2>
-      <div className='row pt-3'>
+      <div className='row pt-3 align-items-center'>
         <div className="col-md-5">
           <Carousel className='carousel-dark'>
             <Carousel.Item interval={8000}>
@@ -50,17 +49,18 @@ const Pizza = () => {
           </Carousel>
         </div>
         <div className="col-md-6 ps-lg-4">
-            <p className="card-text mb-4">{pizza.desc}</p>
-            <h3 className='mb-4'>$ {pizza.price && pizza.price.toLocaleString('es-CL')}</h3>
+          <h2 className="h2-home mb-4">{pizza.name}</h2>
+          <p className="card-text mb-4">{pizza.desc}</p>
+          <h3 className='mb-4'>$ {pizza.price && pizza.price.toLocaleString('es-CL')}</h3>
 
-            <div className='pt-4'>             
-              <button className='btn btn-outline-morado px-5 me-3 me-lg-5' onClick={() => addToCart(pizza)}>
-                Agregar <i className="fa-cart-shopping fa-lg fa-solid ps-2"></i>
-              </button>
-              <button className='btn btn-primary px-5 mt-3 mt-lg-0' data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Comprar <i className="fa-credit-card fa-lg fa-solid ps-2"></i>
-              </button>
-            </div>
+          <div className='pt-4'>             
+            <button className='btn btn-outline-morado px-5 me-3 me-lg-5' onClick={() => addToCart(pizza)}>
+              Agregar <i className="fa-cart-shopping fa-lg fa-solid ps-2"></i>
+            </button>
+            <button className='btn btn-primary px-5 mt-3 mt-lg-0' data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Comprar <i className="fa-credit-card fa-lg fa-solid ps-2"></i>
+            </button>
+          </div>
         </div>
       </div>
      

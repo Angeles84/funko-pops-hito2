@@ -70,7 +70,9 @@ const Login = () => {
                     value={password}
                   />
                 </Form.Group>
-                <Button type="submit" className="px-5 btn btn-primary mt-2">Enviar 🚀</Button>
+                <Button type="submit" className="px-5 btn btn-primary mt-2">
+                  Enviar <i className="fa-solid fa-paper-plane fa-lg ps-2"></i>
+                </Button>
               </Form>
             </div>
 

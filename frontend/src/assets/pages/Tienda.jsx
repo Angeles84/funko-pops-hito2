@@ -27,7 +27,9 @@ const Tienda = () => {
 
       <div className="container-fluid pb-5 mt-5">
         <div className="container">
+          
           <div className="row pb-5">
+            <h5 className="ps-lg-5 pb-1">Filtros</h5>
             <div className="col-12 col-md-6 col-lg-3 ps-lg-5">
               <Form.Select aria-label="Selecciona una categoría">
                 <option>Categorías</option>

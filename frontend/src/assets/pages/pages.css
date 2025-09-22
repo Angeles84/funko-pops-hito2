@@ -76,6 +76,14 @@
   border-radius: 10px;
   padding: 0.5rem 1.6rem;
 }
+.btn-primary.disabled {
+  background-color: #946D9D;
+  border-color: #946D9D;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 0.5rem 1.6rem;
+}
 .btn-primary:hover {
   background-color: #66057f;
   border-color: #66057f;
@@ -143,6 +151,7 @@
 .foto-user{
   border-radius: 50%;
   width: 100%;
+  border: solid 2px #4C0B5C;
 }
 
 .nav-tabs .nav-link {

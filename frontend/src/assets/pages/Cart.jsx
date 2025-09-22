@@ -4,21 +4,14 @@ import { CartContext } from '../context/CartContext.jsx';
 import { UserContext } from '../context/UserContext.jsx';
 import { Link } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
-import pagado from '../img/pago-exitoso.gif'
 import './pages.css' 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const Cart = () => {
-  const { cart, totalPrice, disminuirtCount, aumentarCount, cartCheckout, checkoutSuccess} = useContext(CartContext);
+  const { cart, totalPrice, disminuirtCount, aumentarCount, cartCheckout} = useContext(CartContext);
   const { isLogged } = useContext(UserContext);
-
 
   const pagarCarrito = async () => {
     await cartCheckout();
-    const myModalEl = document.getElementById('exampleModal2');
-    const myModal = new window.bootstrap.Modal(myModalEl);
-    myModal.show();
   }
 
   return ( 
@@ -69,24 +62,8 @@ const Cart = () => {
             </button>
           </div>
         </div>
-        
-        {checkoutSuccess && <div className='text-center'><img src={pagado} alt="" className="img-fluid ancho-img"/></div>}
       </div>
 
-      <div className="modal fade" id="exampleModal2" tabIndex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-        <div className="modal-dialog">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h5 className="modal-title" id="exampleModalLabel2">¡Tu compra ha sido realizada con éxito!</h5>
-              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-       
-            <div className="modal-footer">
-              <button type="button" className="btn btn-outline-success px-5" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-        </div>
-      </div>
     </>
    );
 }
