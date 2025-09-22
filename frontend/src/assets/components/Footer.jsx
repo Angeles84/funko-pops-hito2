@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div className="col-12 col-md-6 col-lg-4 ps-4 pt-4 pt-md-0">
               <h5 className="mb-3">Contáctanos</h5>
-              <p className="mb-1">super.ayuda@funkmania.cl</p>
+              <p className="mb-1">super.ayuda@funkomania.cl</p>
               <p className="mb-0">+56 9 5 666 7777</p>
             </div>
           </div>

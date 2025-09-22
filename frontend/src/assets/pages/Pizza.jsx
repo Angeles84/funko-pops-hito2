@@ -54,8 +54,12 @@ const Pizza = () => {
             <h3 className='mb-4'>$ {pizza.price && pizza.price.toLocaleString('es-CL')}</h3>
 
             <div className='pt-4'>             
-              <button className='btn btn-outline-morado px-5 me-3 me-lg-5' onClick={() => addToCart(pizza)}>Agregar 🛒</button>
-              <button className='btn btn-primary px-5 mt-3 mt-lg-0' data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar 💰</button>
+              <button className='btn btn-outline-morado px-5 me-3 me-lg-5' onClick={() => addToCart(pizza)}>
+                Agregar <i className="fa-cart-shopping fa-lg fa-solid ps-2"></i>
+              </button>
+              <button className='btn btn-primary px-5 mt-3 mt-lg-0' data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comprar <i className="fa-credit-card fa-lg fa-solid ps-2"></i>
+              </button>
             </div>
         </div>
       </div>

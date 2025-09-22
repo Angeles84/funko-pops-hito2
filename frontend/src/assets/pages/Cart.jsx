@@ -2,6 +2,8 @@ import { useContext } from 'react';
 //import pizzasCart from '../components/pizzasCart.js'
 import { CartContext } from '../context/CartContext.jsx';
 import { UserContext } from '../context/UserContext.jsx';
+import { Link } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
 import pagado from '../img/pago-exitoso.gif'
 import './pages.css' 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -37,7 +39,7 @@ const Cart = () => {
                     <h5 className=''><b>{pizza.name}</b></h5>
                   </div>
                   <div className='col-12 col-md-4 col-lg-3 mt-3 mt-md-0'>
-                    <h5 className='mb-4'><b>Producto:</b></h5>
+                    <h5 className='mb-4'><b>Cantidad:</b></h5>
                     <button className='btn btn-outline-danger me-2' onClick={() => disminuirtCount(pizza)}>-</button>
                     <span className='fs-5 me-2'><b>{pizza.count}</b></span>
                     <button className='btn btn-outline-success' onClick={() => aumentarCount(pizza)}>+</button>
@@ -53,9 +55,19 @@ const Cart = () => {
           }
         </ul>
         
-        <div className='d-flex justify-content-between align-items-center pt-3 pb-lg-5'>
-          <h3 className='mb-4 mb-md-0'><b>Total: ${totalPrice && totalPrice.toLocaleString('es-CL')}</b></h3>
-          <button className={ isLogged && cart.length > 0 ? 'btn btn-dark px-5' : 'btn btn-dark px-5 disabled'} onClick={() => pagarCarrito()}>Pagar</button>
+        <div className='d-flex justify-content-between pt-2 pb-lg-5'>
+          <Link to="/tienda">
+            <Button 
+              className="me-lg-3 btn-outline-seguircomprando"
+              > <i className="fa-solid fa-arrow-left fa-lg pe-2"></i> Seguir comprando
+            </Button>
+          </Link>
+          <div>
+            <h3 className='mb-4'><b>Total: ${totalPrice && totalPrice.toLocaleString('es-CL')}</b></h3>
+            <button className={ isLogged && cart.length > 0 ? 'btn btn-primary px-5' : 'btn btn-primary px-5 disabled'} onClick={() => pagarCarrito()}>
+              Pagar <i className="fa-credit-card fa-lg fa-solid ps-3"></i>
+            </button>
+          </div>
         </div>
         
         {checkoutSuccess && <div className='text-center'><img src={pagado} alt="" className="img-fluid ancho-img"/></div>}

@@ -49,7 +49,6 @@ const NavBar = () => {
                   </NavLink>
                   <Link to="/">
                     <Button 
-                      
                       className="me-lg-3"
                       variant="outline-primary"
                       onClick={() => logout()} 
@@ -79,7 +78,10 @@ const NavBar = () => {
                 variant="outline-secondary"
                 to="/cart"
               >
-                🛒 <sup>{ getQuantity() }</sup>
+                <i
+                  className="fa-cart-shopping fa-xl fa-solid pe-1"
+                ></i> 
+                <sup>{ getQuantity() }</sup>
               </NavLink>
             </Nav>
           </Navbar.Collapse>

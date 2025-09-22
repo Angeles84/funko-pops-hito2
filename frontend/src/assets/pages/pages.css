@@ -118,6 +118,42 @@
   padding: 0.5rem 1.6rem;
 }
 
+.btn-outline-seguircomprando {
+  background-color: transparent;
+  border: solid 2px #4C0B5C;
+  color: #4C0B5C;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 0.5rem 1.6rem;
+}
+.btn-outline-seguircomprando:hover {
+  background-color: transparent;
+  border: solid 2px #66057f;
+  color: #66057f;
+}
+.btn-outline-seguircomprando:focus {
+  background-color: transparent;
+  border: solid 2px #4C0B5C;
+  color: #4C0B5C;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 0.5rem 1.6rem;
+}
+
+.foto-user{
+  border-radius: 50%;
+  width: 100%;
+}
+
+.nav-tabs .nav-link {
+  color: #4C0B5C;  
+  font-weight: 600;  
+  font-size: 17px;    
+}
+
+.nav-tabs .nav-link.active {
+  color: #946D9D;        
+}
 
 .ancho-img{
   max-width: 550px;

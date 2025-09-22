@@ -5,6 +5,8 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/wonderwoman-1.png?alt=media&token=a40f9185-8082-4a53-b481-842849cf3dd4",
     "img2": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/wonderwoman-2.png?alt=media&token=2d0435f4-0ece-4472-9c1e-53aac498fee2",
     "name": "Wonder Woman",
+    "categoria": "dccomics",
+    "favorito": false,
     "price": 12990
   },
   {
@@ -13,6 +15,8 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/kripto-1.jpg?alt=media&token=a7099c70-7523-45b7-9c57-8205738309a4",
     "img2": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/kripro-2.jpg?alt=media&token=ae0ec781-7bf5-4897-83dc-3a1be62e5323",
     "name": "Krypto",
+    "categoria": "dccomics",
+    "favorito": false,
     "price": 14990
   },
   {
@@ -21,6 +25,8 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/aquaman-1.jpg?alt=media&token=031e3c23-ef9e-4706-8a5e-81c26f3c4b3e",
     "img2": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/aquaman-2.jpg?alt=media&token=d1a56630-0c60-4360-b27d-19b4efa7ef2a",
     "name": "Aquaman",
+    "categoria": "dccomics",
+    "favorito": false,
     "price": 15990
   },
   {
@@ -29,6 +35,8 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/luffy-1.jpg?alt=media&token=c6060912-2ebd-4988-b752-0c84e1a8a229",
     "img2": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/luffy-2.jpg?alt=media&token=ee69db48-78bd-49b7-8936-f2e4973c9f61",
     "name": "Luffy",
+    "categoria": "anime",
+    "favorito": false,
     "price": 10990
   },
   {
@@ -37,6 +45,8 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/naruto-1.jpg?alt=media&token=053d24e5-16df-4cb7-bcde-7477a875696c",
     "img2": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/naruto-2.jpg?alt=media&token=f60060a8-b020-4c89-9098-aa650898439f",
     "name": "Naruto",
+    "categoria": "anime",
+    "favorito": false,
     "price": 11900
   },
   {
@@ -45,6 +55,8 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/ginyu-1.jpg?alt=media&token=3ead33c6-8f4e-4385-a062-7a0c99c0ab7f",
     "img2": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/ginyu-02.jpg?alt=media&token=09eb3b62-303d-4238-8f76-c1b2bac5158a",
     "name": "Ginyu",
+    "categoria": "anime",
+    "favorito": false,
     "price": 9900
   },
   {
@@ -53,6 +65,8 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/cruela-1.jpg?alt=media&token=605733b4-cada-48df-8cda-4c5d5cbba5da",
     "img2": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/cruela-2.jpg?alt=media&token=95c75d97-202a-49c9-8cb3-7c18b00f4e23",
     "name": "Cruela",
+    "categoria": "disney",
+    "favorito": false,
     "price": 8990
   },
   {
@@ -61,6 +75,8 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/elsa-1.jpg?alt=media&token=822ef282-18be-4b8a-a7ad-25a1a4a04634",
     "img2": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/elsa-2.jpg?alt=media&token=55821c16-d023-41fb-9686-3d4d10392de0",
     "name": "Elsa",
+    "categoria": "disney",
+    "favorito": false,
     "price": 12990
   },
   {
@@ -69,6 +85,8 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/ariel-1.jpg?alt=media&token=59713842-c2b0-42c0-9f00-2c49c60ba06a",
     "img2": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/ariel-2.jpg?alt=media&token=7e0ea952-02c4-4591-825c-f092034dcdc8",
     "name": "Ariel",
+    "categoria": "disney",
+    "favorito": false,
     "price": 13990
   },
   {
@@ -77,6 +95,8 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/black-panther-1.jpg?alt=media&token=55735a5b-016a-45fa-b62b-86758400f317",
     "img2": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/black-panther-2.jpg?alt=media&token=b8b92735-378e-432b-bb46-d5433ac40184",
     "name": "Black Panther",
+    "categoria": "marvel",
+    "favorito": false,
     "price": 11990
   },
   {
@@ -85,6 +105,8 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/thor-1.jpg?alt=media&token=32b48de3-905c-4ecf-9fc0-e80ee3d353ef",
     "img2": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/thor-2.jpg?alt=media&token=7120c1af-45a1-4cfe-98ef-0da242e8c397",
     "name": "Thor",
+    "categoria": "marvel",
+    "favorito": false,
     "price": 16990
   },
   {
@@ -93,6 +115,8 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/wolverine-1.jpg?alt=media&token=ff8b6f35-ce5c-4f05-a663-de5909a95c9f",
     "img2": "https://firebasestorage.googleapis.com/v0/b/angie-s-store-d8fd0.appspot.com/o/wolverine-2.jpg?alt=media&token=6b96c576-6e9b-437c-8797-93ea024eaf2a",
     "name": "Wolverine",
+    "categoria": "marvel",
+    "favorito": false,
     "price": 15990
   }
 ]

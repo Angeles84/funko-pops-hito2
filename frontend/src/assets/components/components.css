@@ -5,6 +5,13 @@
   background-position: center;
 }
 
+.banner-tienda{
+  background-image: url('/src/assets/img/banner-tienda.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .filtro-banner{
   background-color: rgba(25, 8, 33, 0.6);
 }
@@ -76,4 +83,15 @@ a {
 }
 .logo-luckiest-b span {
   font-size: 2.6rem;
+}
+
+.boton-estrella {
+  background-color: transparent;
+  border-color: transparent;
+  color: #feffc4;
+}
+.boton-estrella:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: #fdff8b;
 }

@@ -1,7 +1,8 @@
 import CardPizza from "../components/CardPizza";
-import Header from "../components/Header";
+import HeaderTienda from "../components/HeaderTienda";
 import './pages.css'
 //import pizzas from '../components/pizzas.js'
+import Form from 'react-bootstrap/Form';
 
 import { useState, useEffect} from 'react'
 
@@ -22,10 +23,28 @@ const Tienda = () => {
 
   return ( 
     <>
-      <Header/>
+      <HeaderTienda/>
 
-      <div className="container-fluid py-5 my-5">
+      <div className="container-fluid pb-5 mt-5">
         <div className="container">
+          <div className="row pb-5">
+            <div className="col-12 col-md-6 col-lg-3 ps-lg-5">
+              <Form.Select aria-label="Selecciona una categoría">
+                <option>Categorías</option>
+                <option value="1">Anime</option>
+                <option value="2">DC Comics</option>
+                <option value="3">Disney</option>
+                <option value="4">Marvel</option>
+              </Form.Select>
+            </div>
+            <div className="col-12 col-md-6 col-lg-3 ps-lg-5">
+              <Form.Select aria-label="Selecciona una categoría">
+                <option>Ordenar por</option>
+                <option value="1">Precio de menor a mayor</option>
+                <option value="2">Precio de mayor a menor</option>
+              </Form.Select>
+            </div>
+          </div>
           <div className="row">
             {
               pizzas.map(pizza => (

@@ -21,7 +21,6 @@ const UserProvider  = ({ children }) => {
       }),
     });
     const data = await response.json();
-    console.log('data', data);
     
     if (data.token) {
       localStorage.setItem("token", data.token);
@@ -77,7 +76,6 @@ const UserProvider  = ({ children }) => {
         },
       });
       const data = await response.json();
-      console.log('getUser', data);
       setUser(data);
     }
   };
