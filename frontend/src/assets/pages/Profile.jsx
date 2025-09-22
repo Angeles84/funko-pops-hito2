@@ -40,8 +40,8 @@ const Profile = () => {
   return ( 
     <>
       {isLogged ? (
-        <Container className="py-5 my-5">
-        <h2 className="h2-home mt-4 mb-5">Mi Perfil</h2>
+        <Container className="py-5 mt-5 mb-4">
+        <h2 className="h2-home mt-4 mb-4">Mi Perfil</h2>
         <div className="row">
           <div className="col-12 col-md-2">
             <img src="src/assets/img/foto-user.png" alt="" className="foto-user"/>
@@ -133,7 +133,7 @@ const Profile = () => {
                 ) : (
                   <div className="row pt-2">
                     {purchases.map((item, index) => (
-                      <div className="col-12 col-md-6 col-lg-4 px-lg-5" key={index}>
+                      <div className="col-12 col-md-6 col-lg-4 px-xl-5" key={index}>
                         <CardPizza
                           img={item.img}
                           name={item.name}
@@ -152,7 +152,7 @@ const Profile = () => {
               ) : (
                 <div className="row pt-2">
                   {funkosFavoritos.map(funko => (
-                    <div className="col-12 col-md-6 col-lg-4 px-lg-5" key={funko.id}>
+                    <div className="col-12 col-md-6 col-lg-4 px-xl-5" key={funko.id}>
                       <CardPizza 
                         img={funko.img}
                         name={funko.name}

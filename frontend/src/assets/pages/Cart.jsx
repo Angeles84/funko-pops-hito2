@@ -48,7 +48,7 @@ const Cart = () => {
           }
         </ul>
         
-        <div className='d-flex justify-content-between pt-2 pb-lg-5'>
+        <div className='d-flex justify-content-between pt-2 pb-md-4'>
           <Link to="/tienda">
             <Button 
               className="me-lg-3 btn-outline-seguircomprando"
@@ -56,7 +56,7 @@ const Cart = () => {
             </Button>
           </Link>
           <div>
-            <h3 className='mb-4'><b>Total: ${totalPrice && totalPrice.toLocaleString('es-CL')}</b></h3>
+            <h4 className='mb-4'><b>Total: ${totalPrice && totalPrice.toLocaleString('es-CL')}</b></h4>
             <button className={ isLogged && cart.length > 0 ? 'btn btn-primary px-5' : 'btn btn-primary px-5 disabled'} onClick={() => pagarCarrito()}>
               Pagar <i className="fa-credit-card fa-lg fa-solid ps-3"></i>
             </button>

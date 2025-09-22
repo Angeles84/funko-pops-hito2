@@ -39,7 +39,7 @@ const Login = () => {
   return ( 
     <>
       <div className="container-fluid bg-light-funko py-5">
-        <div className="container mt-5 py-5">
+        <div className="container my-5 py-5">
           <div className="row">
             <div className="col-12 col-md-4">
               <h2 className="h2-home">Login</h2>
