@@ -5,5 +5,6 @@ const router = Router();
 
 router.get("/", pizzaController.readPizzas);
 router.get("/:id", pizzaController.readPizza);
+router.put("/:id", pizzaController.updatePizza);
 
 export default router;

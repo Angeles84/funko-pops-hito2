@@ -14,7 +14,20 @@ const readPizza = async (req, res) => {
   res.json(pizza);
 };
 
+const updatePizza = async (req, res) => {
+  const { id } = req.params;
+  const updatedData = req.body;
+
+  try {
+    const updatedPizza = await pizzaModel.updatePizza(id.toLowerCase(), updatedData);
+    res.json({ message: "Funko actualizado correctamente", data: updatedPizza });
+  } catch (error) {
+    res.status(404).json({ message: error.message });
+  }
+};
+
 export const pizzaController = {
   readPizzas,
   readPizza,
+  updatePizza,
 };

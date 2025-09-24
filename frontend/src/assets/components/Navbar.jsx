@@ -43,6 +43,13 @@ const NavBar = () => {
                   <NavLink 
                     className={ setActiveClass }
                     variant="outline-secondary"
+                    to="/admin"
+                  >
+                    Admin
+                  </NavLink>
+                  <NavLink 
+                    className={ setActiveClass }
+                    variant="outline-secondary"
                     to="/profile"
                   >
                     Perfil

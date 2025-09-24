@@ -11,6 +11,7 @@ import Register from './assets/pages/Register';
 import Login from './assets/pages/Login';
 import Profile from "./assets/pages/Profile";
 import Tienda from "./assets/pages/Tienda";
+import Admin from "./assets/pages/Admin";
 import NotFound from "./assets/pages/NotFound";
 import CartProvider from "./assets/context/CartContext";
 import { UserContext } from './assets/context/UserContext';
@@ -51,9 +52,14 @@ function App() {
           >
           </Route>
          
-           <Route
+          <Route
             path="/tienda"
             element={isLogged ? <Tienda /> : <Navigate to="/login" />}
+          >
+          </Route>
+          <Route
+            path="/admin"
+            element={isLogged ? <Admin /> : <Navigate to="/login" />}
           >
           </Route>
           <Route
