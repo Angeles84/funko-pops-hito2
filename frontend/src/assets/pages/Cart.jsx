@@ -51,7 +51,7 @@ const Cart = () => {
         <div className='d-flex justify-content-between pt-2 pb-md-4'>
           <Link to="/tienda">
             <Button 
-              className="me-lg-3 btn-outline-seguircomprando"
+              className="me-lg-3 btn-outline-morado"
               > <i className="fa-solid fa-arrow-left fa-lg pe-2"></i> Seguir comprando
             </Button>
           </Link>

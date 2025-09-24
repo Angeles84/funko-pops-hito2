@@ -133,7 +133,7 @@ const Profile = () => {
                 ) : (
                   <div className="row pt-2">
                     {purchases.map((item, index) => (
-                      <div className="col-12 col-md-6 col-lg-4 px-xl-5" key={index}>
+                      <div className="col-12 col-md-6 col-lg-4 px-xxl-5" key={index}>
                         <CardPizza
                           img={item.img}
                           name={item.name}
@@ -152,7 +152,7 @@ const Profile = () => {
               ) : (
                 <div className="row pt-2">
                   {funkosFavoritos.map(funko => (
-                    <div className="col-12 col-md-6 col-lg-4 px-xl-5" key={funko.id}>
+                    <div className="col-12 col-md-6 col-lg-4 px-xxl-5" key={funko.id}>
                       <CardPizza 
                         img={funko.img}
                         name={funko.name}

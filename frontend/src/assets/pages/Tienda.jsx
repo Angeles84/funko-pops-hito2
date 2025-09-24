@@ -29,8 +29,8 @@ const Tienda = () => {
         <div className="container">
           
           <div className="row pb-4">
-            <h5 className="ps-xl-5 pb-1 pt-2">Filtros</h5>
-            <div className="col-12 col-md-6 col-lg-3 ps-xl-5">
+            <h5 className="ps-xxl-5 pb-1 pt-2">Filtros</h5>
+            <div className="col-12 col-md-6 col-lg-3 ps-xxl-5">
               <Form.Select aria-label="Selecciona una categoría">
                 <option>Categorías</option>
                 <option value="1">Anime</option>
@@ -39,7 +39,7 @@ const Tienda = () => {
                 <option value="4">Marvel</option>
               </Form.Select>
             </div>
-            <div className="col-12 col-md-6 col-lg-3 ps-xl-5">
+            <div className="col-12 col-md-6 col-lg-3 ps-xxl-5">
               <Form.Select aria-label="Selecciona una categoría">
                 <option>Ordenar por</option>
                 <option value="1">Precio de menor a mayor</option>
@@ -50,7 +50,7 @@ const Tienda = () => {
           <div className="row">
             {
               pizzas.map(pizza => (
-                <div className="col-12 col-md-6 col-lg-4 px-xl-5" key={pizza.name}>
+                <div className="col-12 col-md-6 col-lg-4 px-xxl-5" key={pizza.name}>
                   <CardPizza 
                     img={pizza.img}
                     name={pizza.name}
