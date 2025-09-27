@@ -172,9 +172,10 @@
    width: 100%;
   overflow-x: auto;  
 }
-.table-responsive table {
+.table-responsive {
   width: 100%;
-  border-collapse: collapse;
+  overflow: auto;
+  white-space: nowrap;
 }
 
 .btn-danger {

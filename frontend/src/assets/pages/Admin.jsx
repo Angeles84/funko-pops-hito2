@@ -117,8 +117,8 @@ const Admin = () => {
                 <Form.Group className="mb-3" controlId="inputPrecio">
                   <Form.Label>Precio (*)</Form.Label>
                   <Form.Control 
-                    type="precio" 
-                    placeholder="Ej: 12990" 
+                    type="number" 
+                    placeholder="12990" 
                     name="precio"
                     onChange={(e) => setPrecio(e.target.value)}
                     value={precio}
